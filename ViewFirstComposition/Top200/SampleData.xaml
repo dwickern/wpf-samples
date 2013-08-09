@@ -1,0 +1,8 @@
+﻿<Top200ViewModel xmlns="clr-namespace:ViewFirstComposition">
+    <Top200ViewModel.Films>
+        <FilmViewModel Title="The Shawshank Redemption"/>
+        <FilmViewModel Title="The Godfather"/>
+        <FilmViewModel Title="The Godfather: Part II"/>
+        <FilmViewModel Title="Pulp Fiction"/>
+    </Top200ViewModel.Films>
+</Top200ViewModel>

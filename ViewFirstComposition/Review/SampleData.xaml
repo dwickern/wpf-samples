@@ -1,0 +1,9 @@
+﻿<ReviewViewModel xmlns="clr-namespace:ViewFirstComposition">
+    <ReviewViewModel.SelectedFilm>
+        <FilmViewModel
+            Title="The Shawshank Redemption"
+            Date="1994"
+            Review="Overrated"
+            />
+    </ReviewViewModel.SelectedFilm>
+</ReviewViewModel>

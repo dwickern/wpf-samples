@@ -1,0 +1,21 @@
+﻿<Window
+    x:Class="ViewFirstComposition.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ViewFirstComposition"
+    Title="MainWindow" Height="600" Width="800"
+    >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ContentPresenter
+            local:IoC.ViewType="{x:Type local:Top200View}"
+            />
+        <ContentPresenter
+            Grid.Column="1"
+            local:IoC.ViewType="{x:Type local:ReviewView}"
+            />
+    </Grid>
+</Window>
